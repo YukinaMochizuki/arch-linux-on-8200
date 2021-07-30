@@ -8,19 +8,30 @@ after installing i3
 
 fonts
 ```sh
-pacman -S noto-fonts-cjk noto-fonts-emoji
+# CJK and color-emoji
+pacman -S noto-fonts-cjk noto-fonts-emoji 
+
+# terminal fonts
+pacman -S ttf-bitstream-vera ttf-dejavu
+
+# polybar
+pacman -S ttf-fantasque-sans-mono
 ```
 
 aur package
 ```
+polybar
 notion-app-enhanced
+# bing-wallpaper-git
 
+# polybar
+nerd-fonts-complete
 ```
 
 other
 ```
 ibus-setup
-
+playerctl
 ```
 
 ### TODO
