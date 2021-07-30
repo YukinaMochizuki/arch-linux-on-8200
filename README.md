@@ -22,3 +22,6 @@ other
 ibus-setup
 
 ```
+
+### TODO
+- credit
