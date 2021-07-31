@@ -79,4 +79,5 @@ Adding `set draw_borders true` to rc.conf will solve the problem
 ![image](https://user-images.githubusercontent.com/26710554/127752904-8f8d749d-21bc-491e-ac74-374193d5a77b.png)
 
 ### Todo
+- rewrite readme
 - credit
