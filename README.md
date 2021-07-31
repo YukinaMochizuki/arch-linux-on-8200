@@ -28,11 +28,36 @@ notion-app-enhanced
 nerd-fonts-complete
 ```
 
+application
+```
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+```
+
 other
 ```
 ibus-setup
 playerctl
 ```
+
+### issue
+#### URxvt doesn't show unicode characters
+
+```
+# need to change LANG from C to en-US UTF-8
+# ref: https://wiki.archlinux.org/title/Locale
+sudo localectl set-locale LANG=en_US.UTF-8
+```
+
+/etc/locale.conf
+```
+LANG=en_US.UTF-8
+LANGUAGE=en_US:en_GB:en
+LC_TIME=en_US.UTF-8
+LC_COLLATE=C
+```
+
+reboot
+
 
 ### TODO
 - credit
