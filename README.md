@@ -39,7 +39,7 @@ ibus-setup
 playerctl
 ```
 
-### issue
+### Issues
 #### URxvt doesn't show unicode characters
 
 ```
@@ -59,5 +59,5 @@ LC_COLLATE=C
 reboot
 
 
-### TODO
+### Todo
 - credit
