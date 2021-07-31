@@ -3,7 +3,7 @@ Arch Linux installation notes &amp; script for my HP Compaq 8200 Elite Microtowe
 
 Based on [arch-linux-on-7559](https://github.com/YukinaMochizuki/arch-linux-on-7559) except wifi and bluetooth support
 
-### Tmp
+### Note
 after installing i3
 
 fonts
