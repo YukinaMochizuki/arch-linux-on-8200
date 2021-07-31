@@ -30,6 +30,7 @@ nerd-fonts-complete
 
 application
 ```
+# Joplin
 sudo pacman -S lsb-release
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 ```
@@ -37,7 +38,9 @@ wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_
 other
 ```
 ibus-setup
-playerctl
+
+# polybar
+sudo pacman -S playerctl
 ```
 
 ### Issues
@@ -66,6 +69,10 @@ From [Clipboard in Arch Wiki](https://wiki.archlinux.org/title/clipboard):
 ```
 sudo pacman -S autocutsel
 ```
+
+#### [Images have strange stripes in Image preview](https://github.com/ranger/ranger/issues/1104)
+
+Adding `set draw_borders true` to rc.conf will solve the problem
 
 
 ### Todo
