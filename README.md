@@ -30,6 +30,7 @@ nerd-fonts-complete
 
 application
 ```
+sudo pacman -S lsb-release
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 ```
 
@@ -57,6 +58,14 @@ LC_COLLATE=C
 ```
 
 reboot
+
+#### Copy and paste in URxvt
+
+From [Clipboard in Arch Wiki](https://wiki.archlinux.org/title/clipboard):
+> Synchronize PRIMARY, CLIPBOARD and cut buffer selections
+```
+sudo pacman -S autocutsel
+```
 
 
 ### Todo
