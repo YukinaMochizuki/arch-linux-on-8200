@@ -33,6 +33,12 @@ application
 # Joplin
 sudo pacman -S lsb-release
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+
+# X11-Forwarding
+sudo pacman -S x2goclient
+
+# office
+sudo pacman -S libreoffice-fresh # fresh is the feature branch
 ```
 
 spotify
@@ -85,6 +91,17 @@ sudo pacman -S autocutsel
 
 Adding `set draw_borders true` to rc.conf will solve the problem
 
+#### Disable the annoying beel sound
+
+/etc/modprobe.d/blacklist.conf
+
+```
+blacklist pcspkr
+```
+
+reboot
+
+
 ### Screenshot
 ![image](https://user-images.githubusercontent.com/26710554/127752904-8f8d749d-21bc-491e-ac74-374193d5a77b.png)
 
@@ -99,3 +116,6 @@ Adding `set draw_borders true` to rc.conf will solve the problem
      - another console-based audio visualizer
          - [karlstav/cava](https://github.com/karlstav/cava)
 - hope to post on r/unixporn someday
+
+### URL
+https://www.zerotier.com
