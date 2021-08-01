@@ -35,6 +35,16 @@ sudo pacman -S lsb-release
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 ```
 
+spotify
+```
+sudo pacman -S spotifyd
+yay -S spotify-tui
+
+# 60 fps
+spt --tick-rate 16
+```
+[spotifyd configuration](https://spotifyd.github.io/spotifyd/config/File.html#alternatives-to-storing-your-password-in-the-config-file----omit-in-toc---)
+
 other
 ```
 ibus-setup
@@ -81,3 +91,11 @@ Adding `set draw_borders true` to rc.conf will solve the problem
 ### Todo
 - rewrite readme
 - credit
+- want to try
+    - rounded window corners
+         - [AUR picom-git](https://aur.archlinux.org/packages/picom-git)
+         - [Corners in sample.conf](https://github.com/yshui/picom/blob/next/picom.sample.conf#L143)
+         - [compton/picom fork with both tryone144's dual kawase blur method and anti-aliased rounded corners on glx backend!](https://www.reddit.com/r/unixporn/comments/fs8trg/oc_comptonpicom_fork_with_both_tryone144s_dual/)
+     - another console-based audio visualizer
+         - [karlstav/cava](https://github.com/karlstav/cava)
+- hope to post on r/unixporn someday
