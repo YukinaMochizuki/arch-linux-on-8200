@@ -1,1 +1,0 @@
-urxvt +tr -e sh -c "i3-msg floating enable > /dev/zero; i3-msg move position 20 50 > /dev/zero; calcurse;"
