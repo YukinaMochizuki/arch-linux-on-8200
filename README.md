@@ -24,6 +24,7 @@ aur package
 ```
 polybar
 notion-app-enhanced
+postman-bin
 # bing-wallpaper-git
 
 # polybar
